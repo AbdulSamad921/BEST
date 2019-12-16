@@ -1,0 +1,27 @@
+METHOD printReverseFunction
+MOV a
+METHOD_START_printReverseFunction
+PUSH a
+PUSH 1
+SUB 
+MOV a
+WHENEVER 0
+PUSH a
+PUSH 0
+NOTEQ 
+WHENEVER_START_0
+CALL printReverseFunction
+MOV a
+CALL_END_printReverseFunction
+THEN_END_0
+WHENEVER_END_0
+PRINT START_PRINT
+PUSH a
+PRINT STOP_PRINT
+METHOD_END_printReverseFunction
+STORE a
+PUSH 5
+MOV a
+CALL printReverseFunction
+MOV a
+CALL_END_printReverseFunction

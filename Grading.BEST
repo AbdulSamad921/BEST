@@ -1,0 +1,33 @@
+declare marks;
+marks equals 50;
+whenever(marks gte 90)
+then{
+	print "A";
+} 
+other{
+	whenever(marks gte 80)
+	then{
+	print "B";
+	}
+	other{
+		whenever(marks gte 70)
+		then{
+			print "C";
+		}
+		other{
+			whenever(marks gte 60)
+			then{
+				print "D";
+			}	
+			other{
+				whenever(marks gte 50)
+				then{
+					print "E";
+				}	
+				other{
+					print "F";
+				};
+			};
+		};
+	};
+};

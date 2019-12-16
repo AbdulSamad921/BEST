@@ -1,0 +1,33 @@
+METHOD factorialIterative
+MOV a
+METHOD_START_factorialIterative
+STORE c
+PUSH 1
+MOV c
+STORE i
+PUSH 1
+MOV i
+LOOP 0
+PUSH i
+PUSH a
+LESS 
+LOOP_START_0
+PUSH c
+PUSH a
+ADD 
+MOV c
+PRINT START_PRINT
+PUSH c
+PRINT STOP_PRINT
+PUSH i
+PUSH 1
+ADD 
+MOV i
+LOOP_END_0
+METHOD_END_factorialIterative
+STORE a
+PUSH 10
+MOV a
+CALL factorialIterative
+MOV a
+CALL_END_factorialIterative

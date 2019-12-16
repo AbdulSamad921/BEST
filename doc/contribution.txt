@@ -1,0 +1,14 @@
+Contribution
+
+1. Anusha Chitoor Prem : Implementation of compiler 
+2. Gadde Vijaya Mounika : Interpreter/ runtime environment 
+3. Salil Malik : Parsing technique
+4. Abdul Samad Khan : Data structure for parser and interpreter 
+5. All :  Grammar
+
+Contribution plan for the final milestone: 
+
+1. Anusha Chitoor Prem : Implemented parser, lexical analyzer and contributed to intermediate and runtime code.
+2. Gadde Vijaya Mounika : Worked on Runtime and contributed to intermediate code.
+3. Salil Malik : Worked on intermediate code and sample programs
+4. Abdul Samad Khan : Worked on presentation, video and contributed to sample programs.

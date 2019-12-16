@@ -1,0 +1,12 @@
+method printReverseFunction(a)
+{
+    a equals a - 1;
+    whenever( a <> 0 )
+    then {
+    	calling function printReverseFunction(a);
+    	};
+    print a;
+};
+declare a;
+a equals 5;
+calling function printReverseFunction(a);

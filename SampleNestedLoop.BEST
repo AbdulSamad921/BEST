@@ -1,0 +1,8 @@
+declare num;
+declare numb;
+loop num :: 2 -- num lt 6 -- num + 1
+{
+    loop numb :: num+1 -- numb lt 6 -- numb + 1{
+        print numb;
+    };
+};

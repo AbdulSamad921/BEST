@@ -1,0 +1,10 @@
+declare c;
+c equals 1;
+declare a;
+a equals 10;
+declare i;
+loop i::1--i lte a -- i+1
+		{
+			c equals c * i;
+			print c;
+		};

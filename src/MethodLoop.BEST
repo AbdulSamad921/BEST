@@ -1,0 +1,14 @@
+method factorialIterative(a)
+{
+	declare c;
+	c equals 1;
+	declare i;
+	loop i::1--i lt a -- i+1
+    		{
+    			c equals c+a;
+    			print c;
+    		};
+};
+declare a;
+a equals 10;
+calling function factorialIterative(a);
